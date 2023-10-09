@@ -20,10 +20,12 @@ I created a database in the cloud using Google Firebase's "Realtime Database" fe
 
 # Development Environment
 
-Google Firebase 10.4.0 - Realtime Database
-Visual Studio Code
-node/npm (to implement the database)
-HTML, Javascript, and CSS
+- Google Firebase 10.4.0 - Realtime Database
+- Visual Studio Code
+- node/npm (to implement the database)
+- HTML
+- Javascript
+- CSS
 
 # Useful Websites
 
