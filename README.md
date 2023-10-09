@@ -12,24 +12,25 @@
 
 # Cloud Database
 
-I created a database in the cloud using Google Firebase's "Realtime Database" feature
-I 
+I created a database in the cloud using Google Firebase's "Realtime Database" feature.
+
 {Describe the cloud database you are using.}
 
 {Describe the structure of the database that you created.}
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+Google Firebase 10.4.0 - Realtime Database
+Visual Studio Code
+node/npm (to implement the database)
+HTML, Javascript, and CSS
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
 - [how to connect js to html (w3schools)](https://www.w3schools.com/tags/att_script_src.asp)
-- [connecting css to html(simplilearn)](https://www.simplilearn.com/tutorials/html-tutorial/link-css-files-to-html#:~:text=To%20link%20the%20CSS%20to,like%20the%20image%20displayed%20below%3A&text=Let's%20look%20at%20another%20example,the%20CSS%20and%20HTML%20files.)
+- [connecting css to html (simplilearn)](https://www.simplilearn.com/tutorials/html-tutorial/link-css-files-to-html#:~:text=To%20link%20the%20CSS%20to,like%20the%20image%20displayed%20below%3A&text=Let's%20look%20at%20another%20example,the%20CSS%20and%20HTML%20files.)
 - [defer (w3schools)](https://www.w3schools.com/tags/att_script_defer.asp#:~:text=The%20defer%20attribute%20is%20a,the%20src%20attribute%20is%20present.)
 - [connect firebase to js (npm repository)](https://www.npmjs.com/package/firebase)
 - [reading and writing to and from firebase realtime db (firebase docs)](https://firebase.google.com/docs/database/web/read-and-write)
