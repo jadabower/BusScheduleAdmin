@@ -24,7 +24,7 @@ const app = initializeApp(firebaseConfig);
 
 const db = getDatabase();
 const starCountRef = ref(db, "BusRoutes/");
-const test = document.getElementById("test");
+const test = document.getElementById("times");
 onValue(starCountRef, (snapshot) => {
   const data = snapshot.val();
   data.forEach((element) => (test.innerHTML += ", " + element.est_departure));
