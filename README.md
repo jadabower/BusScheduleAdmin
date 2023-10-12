@@ -3,7 +3,7 @@
 My goal in making this program was to learn how to make a database with Google Firebase's Realtime Database feature.
 I plan to continue working on this project for a few more weeks, but as for now the frontend contains simple HTML, Javascript, and CSS files to demonstrate that I have built a database in Firebase and can read information from it. The database contains information about the busses that are run by the apartment complex I live in. I hope to be able to work on the frontend more in the next few weeks to be able to have a useful user interface that my fellow residents and I can use to see when and where the busses will be at any given time.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/NYZEVR-9-ro)
 
 # Cloud Database
 
