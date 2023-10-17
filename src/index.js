@@ -27,5 +27,26 @@ const starCountRef = ref(db, "BusRoutes/");
 const test = document.getElementById("times");
 onValue(starCountRef, (snapshot) => {
   const data = snapshot.val();
-  data.forEach((element) => (test.innerHTML += ", " + element.est_departure));
+  data.forEach(
+    (element) => (test.innerHTML += ", " + convertTime(element.est_departure))
+  );
 });
+
+function convertTime(time) {
+  // Converts from 24-hour clock to 12-hour clock
+  var partsArray = time.split(":");
+  var hour = parseInt(partsArray[0]);
+  var minute = partsArray[1];
+  if (time.length > 5) {
+    return "ERROR";
+  }
+  if (hour > 12) {
+    hour -= 12;
+    if (hour < 10) {
+      hour = `0${hour}`;
+    }
+    var newTime = `${hour}:${minute} pm`;
+    return newTime;
+  }
+  return time + " am";
+}
